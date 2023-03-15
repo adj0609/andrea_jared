@@ -6,13 +6,13 @@
 }
 body{
     background-color: #6c0808dc;
-    color: white;
+    color: black;
 }
 
 #header {
     width:100%;
     height: 100vh;
-    background-image: url(assets/Andrea\ Image.jpeg);
+    background-image: url(assets/images/Andrea\ Jared\ copy.png);
     background-size: cover;
     background-position: center;
 }
@@ -40,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 8px 12px;
     font-size: larger;
@@ -65,7 +65,7 @@ nav ul li a:hover::after{
 
 #about{
     padding: 80px 0;
-    color: white;
+    color: black;
 }
 
 .row{
@@ -139,6 +139,74 @@ nav ul li a:hover::after{
     display: block;
 }
 
+/*resume*/
 
- 
+
+#resume{
+    padding: 80px 0;
+    color: White;
+    
+}
+
+.resume-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.resume-list div{
+    background: #b1a907;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: background 0.5s, transform 0.5s;
+    border-radius: 10px;
+    
+
+}
+
+.resume-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;         
+}
+
+.resume-list div h2{
+    font-size: 30px;
+    font-weight:500;
+    margin-bottom: 20px;
+}
+
+.resume-list div p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.resume-list div a{
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.resume-list div:hover{
+    background: #6c0808dc;
+    color: #b1a907;
+    transform: translateY(-5px);
+    
+}
+
+#portfolio{
+    padding: 80px 0;
+    color: black;
+}
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
  
