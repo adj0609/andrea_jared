@@ -249,6 +249,97 @@ nav ul li a:hover::after{
     color: #6c0808dc;
 }
 
+.contact-left{
+    flex-basis: 35%;
+    
+}
+
+.contact-right{
+    flex-basis: 60%;
+    
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #b1a907;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.social-media{
+    margin-top: 30px;
+
+}
+.social-media a{
+    color: #b1a907;
+    margin-right: 10px;
+    font-size: 25px;
+    display: inline-block;
+    transition: color 0.5s, transform 0.5s;
+}
+
+.social-media a:hover{
+    color: #9c4141;
+    transform: translateY(-5px);
+}
+
+.button a{
+    display: inline-block;
+    color:#b1a907;
+    background-color: #9c4141;
+    border-color: #9c4141;
+    font-size: 24px;
+   
+}
+
+.button{
+    margin-top: 30px;
+    border-color:#9c4141;
+    border: 0;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border:0;
+    outline: none;
+    background: #b1a907;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    color: #6c0808dc
+}
+
+form button{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    color:#b1a907;
+    background: none;
+    margin-left : 200px;
+    
+}
+
+form button:hover{
+    background: #b1a907;
+    color: #6c0808dc;
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px 0;
+    color: #b1a907;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 
 
 
