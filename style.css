@@ -26,6 +26,7 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     
+    
 }
 
 .logo{
@@ -40,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: #b1a907;
     text-decoration: none;
     padding: 8px 12px;
     font-size: larger;
@@ -51,7 +52,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background-color: #b1a907;
+    background-color: #6c0808dc;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -62,10 +63,14 @@ nav ul li a:hover::after{
     width: 100%;
     transition: 0.5s;
 }
+.header-text{
+    color:#b1a907;
+    margin-top: 20px;
+}
 
 #about{
     padding: 80px 0;
-    color: black;
+    color: #b1a907;
 }
 
 .row{
@@ -339,6 +344,13 @@ form button:hover{
     font-size: 14px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 600px){
+    #header{
+        background-image: url('/assets/images/Andrea\ Jared.png');
+    }
+}
+    
 
 
 
