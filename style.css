@@ -209,4 +209,46 @@ nav ul li a:hover::after{
     grid-gap: 40px;
     margin-top: 50px;
 }
+
+.projects{
+    position: relative;
+    overflow: hidden;
+    
+}
  
+.projects img{
+    width: 100%;
+    display: block; 
+    margin-bottom: 20px; 
+}
+
+.cards {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color:#b1a907
+}
+
+.projects p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.projects a{
+    margin-top: 20px;
+    color: #b1a907;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    
+}
+
+.projects a:hover{
+    color: #6c0808dc;
+}
+
+
+
+
