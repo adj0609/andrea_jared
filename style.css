@@ -11,8 +11,8 @@ body{
 
 #header {
     width:100%;
-    height: 100vh;
-    background-image: url(assets/images/Andrea\ Jared\ copy.png);
+    height: 50vh;
+    background-image: url(assets/images/htmlHeader.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -150,6 +150,7 @@ nav ul li a:hover::after{
 #resume{
     padding: 80px 0;
     color: White;
+    text-align: center;
     
 }
 
@@ -206,7 +207,8 @@ nav ul li a:hover::after{
 
 #portfolio{
     padding: 80px 0;
-    color: black;
+    color: White;
+    text-align: center;
 }
 .portfolio-list {
     display: grid;
@@ -219,18 +221,24 @@ nav ul li a:hover::after{
     position: relative;
     overflow: hidden;
     
+    
+}
+.projects h1{
+    color: white;
 }
  
 .projects img{
-    width: 100%;
-    display: block; 
-    margin-bottom: 20px; 
+    width: auto;
+    display: -webkit-inline-box; 
+    margin-bottom: 20px;
+     
 }
 
 .cards {
     font-weight: 500;
     margin-bottom: 20px;
-    color:#b1a907
+    color:#b1a907;
+    
 }
 
 .projects p{
