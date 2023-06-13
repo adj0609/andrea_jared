@@ -375,28 +375,8 @@ form button:hover{
     font-size: 14px;
     font-weight: 500;
 }
-@media screen and (min-width: 10rem) {
-    .left, .right {
-      width: 100%;
-    }
-  }
-  
-  @media screen and (min-width: 70rem) {
-    .left {
-      float: left;
-      width: 50%;
-    }
-    .right {
-      float: right;
-      width: 50%;
-    }
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
+
 
 
 
