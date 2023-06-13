@@ -69,7 +69,7 @@ nav ul li a:hover::after{
 }
 
 #about{
-    padding: 80px 0;
+    padding: 20px 0;
     color: #b1a907;
     ;
 }
@@ -147,10 +147,10 @@ nav ul li a:hover::after{
     display: block;
 }
 .tab-button{
-       display: inline-block;
+    display: inline-block;
     color:#b1a907;
     background: none;
-    font-size: 30px;
+    font-size: 20px;
     height: auto;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -375,6 +375,28 @@ form button:hover{
     font-size: 14px;
     font-weight: 500;
 }
+@media screen and (min-width: 10rem) {
+    .left, .right {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 70rem) {
+    .left {
+      float: left;
+      width: 50%;
+    }
+    .right {
+      float: right;
+      width: 50%;
+    }
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 
 
