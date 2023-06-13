@@ -71,6 +71,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #b1a907;
+    ;
 }
 
 .row{
@@ -86,6 +87,8 @@ nav ul li a:hover::after{
 .about-col-1 img {
     width: 100%;
     border-radius: 10px;
+   
+   
 }
 
 .about-col-2{
@@ -102,7 +105,7 @@ nav ul li a:hover::after{
 
 .tab-title{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 120px 0 40px;
 }
 
 .tab-links{
@@ -143,6 +146,21 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+.tab-button{
+       display: inline-block;
+    color:#b1a907;
+    background: none;
+    font-size: 30px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+.tab-button a{
+    color:#b1a907;
+    
+}
+
 
 /*resume*/
 
@@ -314,7 +332,7 @@ nav ul li a:hover::after{
 }
 
 .button{
-    margin-top: 30px;
+    margin-top: 100px;
     border-color:#9c4141;
     border: 0;
 }
